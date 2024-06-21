@@ -1,0 +1,61 @@
+.letous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+}
+.all .letous .title{
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(to right, #33BBCF 0%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  padding-left: 11px;
+  white-space: nowrap;
+
+  ;
+}
+ .letous .subtitle{
+    font-weight: 600;
+    font-size: 40px;
+    display: block;
+  }
+  .all{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+  .letousp .subtitle{
+    font-weight: 600;
+    font-size: 40px;
+    display: block;
+  }
+  .letousp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0% 5%;
+}
+.all .letousp .title{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    background: linear-gradient(to right, #33BBCF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    padding-left: 11px;
+    white-space: nowrap;
+    ;
+  }
