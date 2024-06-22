@@ -1,0 +1,53 @@
+.clients{
+    margin-top: 130px;
+}
+
+
+.clients .clientsa{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+.clients .clientsa .clientsh{
+
+ font-weight: 600;
+ font-size: 48px;
+}
+
+   .clients .clientsa .clientsd .clientsp{
+display: flex;
+align-items: center;
+justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #dddd;
+   }
+   .clients .clientsa .clientsd {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ddd;
+    width: 50%;
+
+   }
+  .clients .back2{bottom: 89%;
+    left: 0%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+    width: 170px;
+    height: 170px;
+    z-index: 0;}
+    .clients .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+
+    }

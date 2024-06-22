@@ -103,7 +103,7 @@ margin: 16px 0px 0px 0px;
 }
 .back1{
     top: 36%;
-    left: 55%;
+    left: 3%;
     position: relative;
      background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
     filter: blur(900px);    width: 200px;
@@ -114,7 +114,7 @@ margin: 16px 0px 0px 0px;
 }
 .back2{
     top: -30%;
-    left: 46%;
+    left: -60%;
     position: relative;
     background: rgba(255, 255, 255, 0.6);
     filter: blur(750px);
@@ -122,8 +122,8 @@ margin: 16px 0px 0px 0px;
     height: 300px;
     z-index: 1;
 }.back3{
-    bottom: 70%;
-    left: 78%;
+    bottom: 89%;
+    left: 0%;
     position: relative;
     background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);

@@ -1,0 +1,46 @@
+.FeedbackCard {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    width: 370px;
+    margin-bottom: 10px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    height: 395px;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.FeedbackCard:hover {
+    background-color: #6D6D6D; /* Hover background color */
+}
+
+.FeedbackCard .FeedbackCardp {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.FeedbackCard .FeedbackCardd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    gap: 16px;
+}
+
+.FeedbackCard .FeedbackCardd .FeedbackCarddiv {
+    background-color: transparent;
+}
+
+.FeedbackCard .FeedbackCardd .FeedbackCarddiv .FeedbackCardh {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.FeedbackCard .FeedbackCardd .FeedbackCarddiv .FeedbackCardpa {
+    font-weight: 400;
+    font-size: 16px;
+}
