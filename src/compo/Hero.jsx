@@ -34,7 +34,7 @@ const Hero = () => {
       </p>
     </div>
 
-    <div >
+    <div className='ddiv' >
       <img src={robot} alt="billing" className='llimg' />
 
       {/* gradient start */}

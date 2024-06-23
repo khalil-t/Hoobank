@@ -132,9 +132,11 @@ margin: 16px 0px 0px 0px;
     z-index: 0;
 }
 @media (max-width: 576px) {
-    .home{display: flex;
-        height: 65vh;
-  }
+    .home {
+        display: flex;
+        height: 34vh;
+        margin-bottom: 0px;
+    }
     .home .llimg{
     display: none;
     
@@ -207,5 +209,123 @@ margin: 16px 0px 0px 0px;
             flex-direction: column;
         align-items: center;
         }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.home .ddiv{
+
+    width: 20%;
+}
+.back1{
+    
+}
+.back2{
+    top: -30%;
+    left: -163%;
+}
+.back3{
+    bottom: 89%;
+    left: -108%;
+}
+
+
+.home .llimg {
+    right: 0%;
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    z-index: 20;
+}
+
+
+.home .llimg {
+    right: 0%;
+    position: absolute;
+    width: 34%;
+    height: 54%;
+    z-index: 20;
+    bottom: 15%;
+}
+.home .main {
+    margin: 80px 0px 0px 90px;
+}
+.home .main .ltxt {
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 58.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 16px 0px 0px 0px;
+}
+.home .main .Payment {
+    margin: 20px;
+    display: block;
+    margin: 20px;
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 100.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0px;
+    margin-top: -25px;
+}
+
+.home .main p {
+    margin: 0px;
+    color: #dddd;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav .links .link .link1{
+
+        white-space: nowrap;
+        margin: 20px;
+       }
+    
+       .nav .links .link .whitelink{
+        margin: 20px;
+    
+        white-space: nowrap;
+       }
+    .home .ddiv{
+        width: 20%;
+    }
+    .home .llimg {
+        bottom: 0%;
+        right: 0%;
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        z-index: 20;
+    }
+    .home .main {
+        margin: 80px 0px 0px 50px;
+    }
+    .home .main .ltxt {
+        font-size: 57px;
+        font-weight: 600;
+        line-height: 67.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 16px 0px 0px 0px;
+    }
+
+    .home .main .Payment {
+        font-size: 57px;
+        font-weight: 600;
+        line-height: 100.8px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        margin: 0px;
+    }
+
+
 
 }

@@ -158,3 +158,56 @@ cursor: pointer;
     }
    
   }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .one{
+        width: 100%;
+        overflow: hidden;    }
+    .nav{
+        width: 100%;
+    }
+   .nav .links .link .link1{
+
+    white-space: nowrap;
+    margin: 16px;
+   }
+   .nav .links .link {
+
+padding: 0px 16px;
+   }
+.nav img{
+    padding: 0px 16px;
+}
+   .nav .links .link .whitelink{
+    margin: 16px;
+
+    white-space: nowrap;
+   }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav .links .link .link1{
+
+        white-space: nowrap;
+        margin: 20px;
+       }
+    
+       .nav .links .link .whitelink{
+        margin: 20px;
+    
+        white-space: nowrap;
+       }
+       .nav .links .link {
+
+        padding: 0px 16px;
+           }
+           .nav img {
+            padding: 0px 20px;
+            width: 120px;
+            height: 82px;
+        }
+   
+}

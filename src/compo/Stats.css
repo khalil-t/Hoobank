@@ -60,3 +60,67 @@
     white-space: nowrap;
     ;
   }
+
+  @media (max-width: 576px) {
+    .all {
+      flex-direction: column;
+      margin: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: px;
+  }
+
+  .letous .subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+}
+.letousp .subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .all {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.home {
+  display: flex;
+  height: 80vh;
+  padding-bottom: 2%;
+}
+.back1 {
+  top: 36%;
+  left: 3%;
+  position: relative;
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+  width: 200px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  z-index: 0;
+  display: none;
+}
+.letous .subtitle {
+  font-weight: 600;
+  font-size: 30px;
+  display: block;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+
+
+
+}
