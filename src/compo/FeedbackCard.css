@@ -3,7 +3,7 @@
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    width: 370px;
+    width: 300px;
     margin-bottom: 10px;
     padding: 60px 40px;
     border-radius: 10px;
@@ -43,4 +43,27 @@
 .FeedbackCard .FeedbackCardd .FeedbackCarddiv .FeedbackCardpa {
     font-weight: 400;
     font-size: 16px;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .Footer {
+       
+        display: none;
+    }
+  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .Footer {
+        display: flex;
+        align-items: center;
+        gap: 1%;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+
 }

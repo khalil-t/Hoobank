@@ -61,14 +61,14 @@
     ;
   }
 
-  @media (max-width: 576px) {
+  @media (min-width: 0px) and (max-width: 576px) {
     .all {
       flex-direction: column;
-      margin: 8px;
-      display: flex;
-      align-items: center;
+      margin: 0 auto;
       justify-content: center;
-      gap: px;
+      align-items: center;
+      width: 100%;
+      display: flex;
   }
 
   .letous .subtitle {
@@ -92,6 +92,7 @@
     width: 100%;
     flex-direction: column;
     display: flex;
+    margin: 0%;
 }
 .home {
   display: flex;
@@ -120,7 +121,11 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   
-
+  .letous .subtitle {
+    font-weight: 600;
+    font-size: 19px;
+    display: block;
+}
 
 
 }

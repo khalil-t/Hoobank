@@ -22,7 +22,7 @@ const Business = () =>  (
   <section className="features" >
     <div className='context'>
       <h2  className='context-t'>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
+        You do the business, <br className="hidden" /> we’ll handle
         the money.
       </h2>
       <p className='context-p' >
