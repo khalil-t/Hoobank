@@ -75,4 +75,4 @@ Deployment: Vercel, Netlify, or GitHub Pages.
 
 ## 🖼️ Website Preview
 
-![Website Screenshot](./assets/github-1.PNG)
+![Website Screenshot](./asset/github-1.PNG)
