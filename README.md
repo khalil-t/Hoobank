@@ -76,3 +76,5 @@ Deployment: Vercel, Netlify, or GitHub Pages.
 ## 🖼️ Website Preview
 
 ![Website Screenshot](./screen/github-1.PNG)
+![Website Screenshot](./screen/github-2.PNG)
+
